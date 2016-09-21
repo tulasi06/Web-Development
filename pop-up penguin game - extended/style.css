@@ -1,0 +1,244 @@
+body
+{
+	background-color: #ccf5f5;
+}
+#gameholder
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#title
+{
+	width: 600px;
+	height: 150px;
+	background-image:url('images/penguin_title.png');
+}
+.penguin1
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('images/mound_1.png');
+}
+.penguin2
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('images/mound_2.png');
+}
+.penguin3
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('images/mound_3.png');
+}
+.penguin4
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('images/mound_4.png');
+}
+.penguin5
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('images/mound_5.png');
+}
+.penguin6
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('images/mound_6.png');
+}
+.penguin7
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('images/mound_7.png');
+}
+.penguin8
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('images/mound_8.png');
+}
+.yeti
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url('images/mound_9.png');
+}
+.penguin1:hover
+{
+	background-image: url('images/mound_1_hover.png');
+	cursor: pointer;
+}
+.penguin2:hover
+{
+	background-image: url('images/mound_2_hover.png');
+	cursor: pointer;
+}
+.penguin3:hover
+{
+	background-image: url('images/mound_3_hover.png');
+	cursor: pointer;
+}
+.penguin4:hover
+{
+	background-image: url('images/mound_4_hover.png');
+	cursor: pointer;
+}
+.penguin5:hover
+{
+	background-image: url('images/mound_5_hover.png');
+	cursor: pointer;
+}
+.penguin6:hover
+{
+	background-image: url('images/mound_6_hover.png');
+	cursor: pointer;
+}
+.penguin7:hover
+{
+	background-image: url('images/mound_7_hover.png');
+	cursor: pointer;
+}
+.penguin8:hover
+{
+	background-image: url('images/mound_8_hover.png');
+	cursor: pointer;
+}
+.penguin1:active 
+{
+    background-image:url('images/penguin_1.png');
+}
+.penguin1.active 
+{
+    background-image:url('images/penguin_1.png');
+}
+.penguin2:active
+ {
+    background-image:url('images/penguin_2.png');
+}
+.penguin2.active {
+    background-image:url('images/penguin_1.png');
+}
+.penguin3:active 
+{
+    background-image:url('images/penguin_3.png');
+}
+.penguin3.active {
+    background-image:url('images/penguin_1.png');
+}
+.penguin4:active
+ {
+    background-image:url('images/penguin_4.png');
+}
+.penguin4.active
+ {
+    background-image:url('images/penguin_1.png');
+}
+.penguin5:active
+ {
+    background-image:url('images/penguin_5.png');
+}
+.penguin5.active 
+{
+    background-image:url('images/penguin_1.png');
+}
+.penguin6:active 
+{
+    background-image:url('images/penguin_6.png');
+}
+.penguin6.active 
+{
+    background-image:url('images/penguin_1.png');
+}
+.penguin7:active 
+{
+    background-image:url('images/penguin_7.png');
+}
+.penguin7.active 
+{
+    background-image:url('images/penguin_1.png');
+}
+.penguin8:active
+ {
+    background-image:url('images/penguin_8.png');
+}
+.penguin8.active
+ {
+    background-image:url('images/penguin_1.png');
+}
+.yeti:active
+{ 
+	background-image:url('images/yeti.png');
+}
+.yeti.active
+{ 
+	background-image:url('images/yeti.png');
+}
+.overlay
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.visible 
+{
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup 
+{
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 
+{
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close 
+{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover 
+{
+  color: #06D85F;
+}
+.popup .content 
+{
+  max-height: 30%;
+  overflow: auto;
+}

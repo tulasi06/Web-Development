@@ -1,0 +1,40 @@
+body
+{
+	background-color: #F4E6DD;
+}
+h1
+{
+	text-align: center;
+	color: #3333cc;
+	padding: 10px;
+}
+img
+{
+	border-radius: 8%;
+	max-width: 100%;
+	height: auto;
+	float: right;
+}
+h2
+{
+	color:#9900cc;
+	padding: 2px; 
+}
+p
+{
+	font-size: 20px;
+	font-style: italic;
+	padding: 2px;
+
+}
+ul
+{
+	font-size: 20px;
+	list-style-type: circle;
+	
+}
+ol
+{
+	font-size: 20px;
+	
+}
